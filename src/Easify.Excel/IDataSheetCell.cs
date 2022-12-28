@@ -1,5 +1,5 @@
-﻿// This software is part of the Easify.Excel Library
-// Copyright (C) 2018 Intermediate Capital Group
+﻿// This software is part of the LittleBlocks.Excel Library
+// Copyright (C) 2018 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -17,7 +17,7 @@
 
 using System;
 
-namespace Easify.Excel
+namespace LittleBlocks.Excel
 {
     public interface IDataSheetCell : IDataSheetCellCoordinates
     {

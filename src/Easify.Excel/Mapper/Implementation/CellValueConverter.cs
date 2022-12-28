@@ -1,5 +1,5 @@
-// This software is part of the Easify.Excel Library
-// Copyright (C) 2018 Intermediate Capital Group
+// This software is part of the LittleBlocks.Excel Library
+// Copyright (C) 2018 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -16,10 +16,10 @@
 // 
 
 using System;
-using Easify.Excel.Exceptions;
-using Easify.Extensions;
+using LittleBlocks.Excel.Exceptions;
+using LittleBlocks.Extensions;
 
-namespace Easify.Excel.Mapper.Implementation
+namespace LittleBlocks.Excel.Mapper.Implementation
 {
     public sealed class CellValueConverter : ICellValueConverter
     {

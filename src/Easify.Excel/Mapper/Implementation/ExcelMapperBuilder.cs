@@ -1,5 +1,5 @@
-// This software is part of the Easify.Excel Library
-// Copyright (C) 2018 Intermediate Capital Group
+// This software is part of the LittleBlocks.Excel Library
+// Copyright (C) 2018 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -17,13 +17,13 @@
 
 using System;
 using System.Collections.Generic;
-using Easify.Excel.Mapper.PropertyMap;
-using Easify.Excel.Mapper.PropertyMap.Conventions;
-using Easify.Excel.Reflection;
-using Easify.Extensions;
+using LittleBlocks.Excel.Mapper.PropertyMap;
+using LittleBlocks.Excel.Mapper.PropertyMap.Conventions;
+using LittleBlocks.Excel.Reflection;
+using LittleBlocks.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Easify.Excel.Mapper.Implementation
+namespace LittleBlocks.Excel.Mapper.Implementation
 {
     public class ExcelMapperBuilder : IExcelMapperBuilder
     {

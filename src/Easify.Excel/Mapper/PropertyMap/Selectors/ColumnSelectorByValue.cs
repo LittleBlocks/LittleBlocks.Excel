@@ -1,5 +1,5 @@
-﻿// This software is part of the Easify.Excel Library
-// Copyright (C) 2018 Intermediate Capital Group
+﻿// This software is part of the LittleBlocks.Excel Library
+// Copyright (C) 2018 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -17,9 +17,9 @@
 
 using System;
 using System.Linq;
-using Easify.Excel.Mapper.PropertyMap.Exceptions;
+using LittleBlocks.Excel.Mapper.PropertyMap.Exceptions;
 
-namespace Easify.Excel.Mapper.PropertyMap.Selectors
+namespace LittleBlocks.Excel.Mapper.PropertyMap.Selectors
 {
     public class ColumnSelectorByValue : ColumnSelector
     {
