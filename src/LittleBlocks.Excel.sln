@@ -17,6 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LittleBlocks.Excel.ClosedXm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleBlocks.Excel.Extensions", "LittleBlocks.Excel.Extensions\LittleBlocks.Excel.Extensions.csproj", "{5D6D993C-B312-400A-98BE-4BBD5BD7EDE9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extras", "Extras", "{82536096-D5A9-4714-B246-55242991C504}"
+	ProjectSection(SolutionItems) = preProject
+		..\GitVersion.yml = ..\GitVersion.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

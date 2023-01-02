@@ -23,5 +23,6 @@ namespace LittleBlocks.Excel
         IDataSheetPicture MoveTo(int row, int column);
         IDataSheetPicture Scale(double scaleValue);
         IDataSheetPicture WithSize(int width, int height);
+        IDataSheetPicture WithPlacement(PicturePlacement placement);
     }
 }

@@ -61,5 +61,11 @@ namespace LittleBlocks.Excel.ClosedXml
             _picture.WithSize(width, height);
             return this;
         }
+        
+        public IDataSheetPicture WithPlacement(PicturePlacement placement)
+        {
+            _picture.WithPlacement((XLPicturePlacement)placement);
+            return this;
+        }
     }
 }

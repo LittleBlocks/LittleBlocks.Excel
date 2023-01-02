@@ -8,7 +8,7 @@
         <RepositoryUrl>https://github.com/LittleBlocks/LittleBlocks.Excel</RepositoryUrl>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="LittleBlocks.Extensions" Version="1.1.4" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.0.1" />
+        <PackageReference Include="LittleBlocks.Extensions" Version="1.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.3" />
     </ItemGroup>
 </Project>
