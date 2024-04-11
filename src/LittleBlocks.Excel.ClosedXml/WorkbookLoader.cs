@@ -40,7 +40,7 @@ namespace LittleBlocks.Excel.ClosedXml
                 var fileName = Path.GetFileName(path);
                 var stream = FileHelper.ReadFileToMemoryStream(path);
                 
-                return new Workbook(new XLWorkbook(stream, XLEventTracking.Disabled), fileName);
+                return new Workbook(new XLWorkbook(stream), fileName);
             }
             catch (FileFormatException ex)
             {
@@ -54,7 +54,7 @@ namespace LittleBlocks.Excel.ClosedXml
         {
             if (stream == null) throw new ArgumentNullException(nameof(stream));
 
-            return new Workbook(new XLWorkbook(stream, XLEventTracking.Disabled));
+            return new Workbook(new XLWorkbook(stream));
         }
     }
 }

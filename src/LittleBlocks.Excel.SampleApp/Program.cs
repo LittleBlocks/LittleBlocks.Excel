@@ -67,7 +67,7 @@ namespace LittleBlocks.Excel.SampleApp
         private static IWorkbook LoadWorkbook(string dataFile)
         {
             var datafilePath = $"{AppDomain.CurrentDomain.BaseDirectory}\\data\\{dataFile}";
-            var workbook = new XLWorkbook(GetMemoryStream(datafilePath), XLEventTracking.Disabled);
+            var workbook = new XLWorkbook(GetMemoryStream(datafilePath));
             var fileName = Path.GetFileName(datafilePath);
             return new Workbook(workbook, fileName);
         }
