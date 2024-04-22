@@ -37,7 +37,7 @@ namespace LittleBlocks.Excel.ClosedXml.IntegrationTests.Helpers
         private IWorkbook LoadWorkbook(string dataFile)
         {
             var datafilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", dataFile);
-            var workbook = new XLWorkbook(GetMemoryStream(datafilePath), XLEventTracking.Disabled);
+            var workbook = new XLWorkbook(GetMemoryStream(datafilePath));
             var fileName = Path.GetFileName(datafilePath);
             return new Workbook(workbook, fileName);
         }
