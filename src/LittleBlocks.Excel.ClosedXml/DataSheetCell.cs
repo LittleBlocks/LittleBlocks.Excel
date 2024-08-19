@@ -112,7 +112,7 @@ namespace LittleBlocks.Excel.ClosedXml
         public object Value
         {
             get => _cell.Value;
-            set => _cell.Value = (XLCellValue)value;
+            set => _cell.Value = value.ToString();
         }
 
         public bool IsEmpty()

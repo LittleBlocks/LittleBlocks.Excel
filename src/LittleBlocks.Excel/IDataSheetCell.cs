@@ -24,7 +24,6 @@ namespace LittleBlocks.Excel
         object Value { get; set; }
         TValue GetValue<TValue>();
         object OriginalCell { get; }
-
         string GetString();
         string GetStringOrDefault();
         int? GetIntegerOrDefault();
